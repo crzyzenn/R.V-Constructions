@@ -37,16 +37,17 @@
 		    <div class="col-sm-3 text-center bg-light text-muted director-link">
 
 				    <br>	     	
-			     	<a href="director"><img src="assets/images/vivek.png" width="100%"></a>	     	
+			     	<a href="director" class = "text-muted"><img src="assets/images/vivek.png" width="100%">	     	
 			     	<p>Vivek Ranjan</p>					
 					<p class="text-gray-dark">Graduate in Electrical & Electronics Engineering from India</p>
+					</a>
 		    </div>
 		    
 		    <div class="col-sm-3 text-center text-muted bg-light director-link">		
 		    <br>	     			 
-		     	<a href="director"><img src="assets/images/rajesh.png"></a>
- 				<p>Rajesh Kr. Das</p>		
-				<p class="text-gray-dark">Master in Architect from TASI (Tashkent, Uzbekistan) </p>
+		     	<a href="director" class="text-muted"><img src="assets/images/rajesh.png">
+	 					<p class="text-gray-dark">Master in Architect from TASI (Tashkent, Uzbekistan) </p>
+    			</a>
 		    </div>		    
 		  </div>
 		</div>

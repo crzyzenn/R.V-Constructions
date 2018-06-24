@@ -186,13 +186,13 @@
 															<tr>
 																<td>Email</td>
 																<td>
-																	<p>example@test.com</p>
+																	<p>info@rvcc.com.np</p>
 																</td>
 															</tr>
 															<tr>
 																<td>Website</td>
 																<td>
-																	<p>example.com</p>
+																	<p>www.rvcc.com.np</p>
 																</td>
 															</tr>
 															<tr>
