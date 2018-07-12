@@ -35,13 +35,7 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<div class="collapse navbar-collapse" id="rv-header">
-			<ul class="navbar-nav float-md-right social-links">			
-					<li class="nav-item" style = "color:#4267b2;"><a target="_blank" href="https://www.facebook.com/deepakrvcc/"><span class="fab fa-facebook"></span></a></li>
-					<li class="nav-item" style = "color:#55acee;"><a target="_blank" href="https://twitter.com/rvccconstructi1"><span class="fab fa-twitter-square"></span></a></li>
-					<li class="nav-item" style = "color:#dc483b;"><a target="_blank" href="https://plus.google.com/112446607792992609334"><span class="fab fa-google-plus-square"></span></a></li>			
-			</ul>
-			<br>
+		<div class="collapse navbar-collapse" id="rv-header">						
 			<ul class="navbar-nav float-md-right">
 				<li class="nav-item">
 					<a class="nav-link" id = "home" href="home">Home <span class="sr-only">(current)</span></a>
@@ -160,7 +154,7 @@
 
 				<div class="row text-muted">
 					
-					<div class = 'col-md-4 text-left' id = "contactDiv">						
+					<!-- <div class = 'col-md-4 text-left' id = "contactDiv">						
 						<p class = "text-muted">
 							Contact:<br>							
 							Mobile: +977-9851004002, +977-9818154134 	<br>	
@@ -216,7 +210,7 @@
 												</div>
 												<div class="modal-footer">
 													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-													<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+													<button type="button" class="btn btn-primary">Save changes</button> 
 												</div>
 											</div>
 										</div>
@@ -230,28 +224,27 @@
 
 						</p>						
 					</div>
-					<div class = 'col-md-3 text-left'>											
-						<p class="text-muted">&copy <?php echo date('Y'); ?> | All Rights Reserved</p>	
-					</div>
-					<div class = 'col-md-5 text-left'>						
+					-->
+					
+					<div class = 'col-md-12 text-center'>						
 						<ul class="list-inline footerLinks">
 							<li class="list-inline-item">
-								<a href="home" id = "home" class = "text-muted">Home</a> | 
+								<a href="home" id = "home" class = "text-muted">Home</a> 
 							</li>
 							<li class="list-inline-item">
-								<a class="text-muted" id = "overview" href="">About Us</a> | 
+								<a class="text-muted" id = "overview" href="">About Us</a> 
 							</li>
 							<li class="list-inline-item">
-								<a class="text-muted" id = "contact" href="">Contact</a> | 
+								<a class="text-muted" id = "contact" href="">Contact</a> 
 							</li>
 							<li class="list-inline-item">
-								<a class="text-muted" id = "services" href="">Services</a> | 
+								<a class="text-muted" id = "services" href="">Services</a> 
 							</li>
 							<li class="list-inline-item">
-								<a class="text-muted" id = "mission" href="">Mission</a> | 
+								<a class="text-muted" id = "mission" href="">Mission</a> 
 							</li>
 							<li class="list-inline-item">
-								<a class="text-muted" id = "director" href="director">Director's Corner</a> | 
+								<a class="text-muted" id = "director" href="director">Director's Corner</a> 
 							</li>
 							<li class="list-inline-item">
 								<a class="text-muted" id = "gallery" href="gallery">Gallery</a>
@@ -263,6 +256,22 @@
 						</ul>		
 			
 					</div>
+					<div class = 'col-md-12 text-center'>											
+						<p class="text-muted">&copy <?php echo date('Y'); ?> | All Rights Reserved</p>	
+					</div>
+					<div class = "col-sm-12 text-right">
+					<ul class="list-inline footerLinks font-weight-bold">
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.facebook.com/deepakrvcc/" title=""><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://twitter.com/rvccconstructi1" title=""><i class="fab fa-twitter"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://plus.google.com/112446607792992609334" title=""><i class="fab fa-google-plus-g"></i></a>
+						</li>
+					</ul>	
+				</div>
 
 				</div>
 

@@ -1,4 +1,4 @@
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval = "2000">
 		<ol class="carousel-indicators">
 			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 			<li data-target="#carousel-example-generic" data-slide-to="0"></li>
@@ -8,12 +8,39 @@
 		<div class="carousel-inner" role="listbox">			        
 			<div class="carousel-item active">
 				<img src="assets/images/test3.png" alt="First slide">
+				<div class = "carousel-caption">
+					<h1>This is a heading</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="assets/images/test2.png" alt="First slide">
+				<div class = "carousel-caption">
+					<h1>This is a heading</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="assets/images/test4.png" alt="First slide">
+				<div class = "carousel-caption">
+					<h1>This is a heading</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carousel-example-generic" data-slide="prev">
@@ -25,7 +52,7 @@
 	</div>
 
 
-    <div class="jumbotron jumbotron-fluid" id = "overviewDiv">
+    <div class="jumbotron jumbotron-fluid bg-white" id = "overviewDiv">
         <div class="container">
      		
 		  <div class="row">
@@ -36,189 +63,197 @@
 
 		    <div class="col-sm-3 text-center bg-light text-muted director-link">
 
-				    <br>	     	
-			     	<a href="director"><img src="assets/images/vivek.png" width="100%"></a>	     	
-			     	<p>Vivek Ranjan</p>					
+			    <br>	     	
+		     	<a href="director" class="text-muted">
+		     		<img src="assets/images/vivek.png" width="100%">     	
+		     		<p>Vivek Ranjan</p>					
 					<p class="text-gray-dark">Graduate in Electrical & Electronics Engineering from India</p>
+				</a>	
 		    </div>
 		    
 		    <div class="col-sm-3 text-center text-muted bg-light director-link">		
 		    <br>	     			 
-		     	<a href="director"><img src="assets/images/rajesh.png"></a>
- 				<p>Rajesh Kr. Das</p>		
-				<p class="text-gray-dark">Master in Architect from TASI (Tashkent, Uzbekistan) </p>
+		     	<a href="director" class="text-muted">
+		     		<img src="assets/images/rajesh.png">
+	 				<p>Rajesh Kr. Das</p>		
+					<p class="text-gray-dark">Master in Architect from TASI (Tashkent, Uzbekistan) </p>
+				</a>
 		    </div>		    
 		  </div>
 		</div>
 	</div>
 
-	<div class = "container" id = "servicesDiv">
-		<br><br>
-		<p class = "display-4 text-center">WE OFFER:</p>
-		<hr>
-		<div class="row">
-			<div class="col-md-3 distinct shadow-div">
-				
-				    <div class="thumbnail text-center">
-				        <img src="assets/images/we1.png" width="100%" 				    alt="" class="img-responsive">
-				        <div class="caption">
-				            <p>
-				            	Engineering/Design Layout of Buildings (Commercial/Office/Residential/High Rise, Bank, Hospital), Hotels/Resorts
-				            	
-							</p>
-				        </div>
-				    </div>
-				
-										
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-				    <div class="thumbnail text-center">
-				        <img src="assets/images/we2.png" width="100%" 				    alt="" class="img-responsive">
-				        <div class="caption">
-				            <p>
-				            	Civil work/Plumbing & Sanitary Work/ Interior & Exterior works
-							</p>
-				        </div>
-				    </div>
-				
-										
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we3.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Remodelling/Renovation/Retrofitting of Residential/Commercial/Office Buildings
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we10.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Electrification work/ Street Light Poles, High Mast
-
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we11.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Fencing solutions/ Earthing & Lightning Protection Solutions
-
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we12.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Electrical/Civil/Mechanical Works for Industries/Power Plants
-
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we4.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Substation Work – Civil/Electrical/Mechanical
-
-
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we5.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Solar – Civil/Structure/ Module Erection, AC/DC Work
-
-
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we6.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Panel ( LV/MV) – Erection, Testing & Commissioning
-
-
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we7.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Cable Trays/Raceways
-
-
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we8.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Cabling System
-
-
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we9.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Transformers – ETC of Power Transformers, Station Transformers, Distribution Transformers			            	
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-
+	<div class="jumbotron jumbotron-fluid bg-light">
+		
+	
+		<div class = "container" id = "servicesDiv">
 			<br><br>
+			<p class = "display-4 text-center font-weight-bold">We Offer:</p>
+			<hr>
+			<div class="row">
+				<div class="col-md-4 distinct">
+						
+					    <div class="thumbnail text-center">
+					        <img src="assets/images/we1.png" width="100%" 				    alt="" class="img-responsive">
+					        <div class="caption">
+					            <p>
+					            	Engineering/Design Layout of Buildings (Commercial/Office/Residential/High Rise, Bank, Hospital), Hotels/Resorts
+					            	
+								</p>
+					        </div>
+					    </div>
+					
+											
+				</div>
+				<div class="col-md-4 distinct">
+					
+					    <div class="thumbnail text-center">
+					        <img src="assets/images/we2.png" width="100%" 				    alt="" class="img-responsive">
+					        <div class="caption">
+					            <p>
+					            	Civil work/Plumbing & Sanitary Work/ Interior & Exterior works
+								</p>
+					        </div>
+					    </div>
+					
+											
+				</div>
+				<div class="col-md-4 distinct">
+					
+				    <div class="thumbnail text-center">
+				        <img src="assets/images/we3.png" width="100%" 				    alt="" class="img-responsive">
+				        <div class="caption">
+				            <p>
+				            	Remodelling/Renovation/Retrofitting of Residential/Commercial/Office Buildings
+
+							</p>
+				        </div>
+				    </div>									
+				</div>
+				<div class="col-md-4 distinct">
+					
+				    <div class="thumbnail text-center">
+				        <img src="assets/images/we10.png" width="100%" 				    alt="" class="img-responsive">
+				        <div class="caption">
+				            <p>
+				            	Electrification work/ Street Light Poles, High Mast
+
+
+							</p>
+				        </div>
+				    </div>									
+				</div>
+				<div class="col-md-4 distinct">
+					
+				    <div class="thumbnail text-center">
+				        <img src="assets/images/we11.png" width="100%" 				    alt="" class="img-responsive">
+				        <div class="caption">
+				            <p>
+				            	Fencing solutions/ Earthing & Lightning Protection Solutions
+
+
+							</p>
+				        </div>
+				    </div>									
+				</div>
+				<div class="col-md-4 distinct">
+					
+				    <div class="thumbnail text-center">
+				        <img src="assets/images/we12.png" width="100%" 				    alt="" class="img-responsive">
+				        <div class="caption">
+				            <p>
+				            	Electrical/Civil/Mechanical Works for Industries/Power Plants
+
+
+							</p>
+				        </div>
+				    </div>									
+				</div>
+				<div class="col-md-4 distinct ">
+					
+				    <div class="thumbnail text-center">
+				        <img src="assets/images/we4.png" width="100%" 				    alt="" class="img-responsive">
+				        <div class="caption">
+				            <p>
+				            	Substation Work – Civil/Electrical/Mechanical
+
+
+
+							</p>
+				        </div>
+				    </div>									
+				</div>
+				<div class="col-md-4 distinct ">
+					
+				    <div class="thumbnail text-center">
+				        <img src="assets/images/we5.png" width="100%" 				    alt="" class="img-responsive">
+				        <div class="caption">
+				            <p>
+				            	Solar – Civil/Structure/ Module Erection, AC/DC Work
+
+
+
+							</p>
+				        </div>
+				    </div>									
+				</div>
+				<div class="col-md-4 distinct ">
+					
+				    <div class="thumbnail text-center">
+				        <img src="assets/images/we6.png" width="100%" 				    alt="" class="img-responsive">
+				        <div class="caption">
+				            <p>
+				            	Panel ( LV/MV) – Erection, Testing & Commissioning
+
+
+
+							</p>
+				        </div>
+				    </div>									
+				</div>
+				<div class="col-md-4 distinct ">
+					
+				    <div class="thumbnail text-center">
+				        <img src="assets/images/we7.png" width="100%" 				    alt="" class="img-responsive">
+				        <div class="caption">
+				            <p>
+				            	Cable Trays/Raceways
+
+
+
+							</p>
+				        </div>
+				    </div>									
+				</div>
+				<div class="col-md-4 distinct ">
+					
+				    <div class="thumbnail text-center">
+				        <img src="assets/images/we8.png" width="100%" 				    alt="" class="img-responsive">
+				        <div class="caption">
+				            <p>
+				            	Cabling System
+
+
+
+							</p>
+				        </div>
+				    </div>									
+				</div>
+				<div class="col-md-4 distinct ">
+					
+				    <div class="thumbnail text-center">
+				        <img src="assets/images/we9.png" width="100%" 				    alt="" class="img-responsive">
+				        <div class="caption">
+				            <p>
+				            	Transformers – ETC of Power Transformers, Station Transformers, Distribution Transformers			            	
+
+							</p>
+				        </div>
+				    </div>									
+				</div>
+
+				<br><br>
+			</div>
 		</div>
 	</div>
 
@@ -226,9 +261,9 @@
 
 
 	<!-- Mission Area -->
-    <div class="jumbotron jumbotron-fluid bg-faded" id = "missionDiv">
+    <div class="jumbotron jumbotron-fluid bg-white" id = "missionDiv">
 		<div class="container">
-			<p class="display-4 text-center">OUR MISSION</p>
+			<p class="display-4 text-center font-weight-bold">Our Mission</p>
 			<hr>
 			<br>			
 			<div class = "row">
@@ -242,6 +277,54 @@
 						
 					</ul>
 					
+				</div>
+				
+			</div>
+		</div>
+
+	</div>
+
+	<div class="jumbotron jumbotron-fluid bg-light" id = "contactDiv">
+		<div class="container">
+			<p class="display-4 text-center font-weight-bold">Contact us at</p>
+			<hr>
+			<br>			
+			<div class = "row text-center">
+				
+				<div class="col-sm-10" style="margin: 0 auto;">
+					<table class="table table-hover">				
+						<tbody>
+							<tr>
+								<td><i class = "fa fa-building"></i></td>
+								<td>
+									<p>1/19 Kha, Bhimmukteswor,
+									Ward No: - 11, Kalimati,
+									Kathmandu, Nepal</p>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="fas fa-at"></i></td>
+								<td>
+									<p>example@test.com</p>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="fa fa-globe"></i></td>
+								<td>
+									<p>example.com</p>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="fas fa-phone-square"></i></td>
+								<td>
+									<p>
+										+977-9851004002
+										+977-9818154134
+									</p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 				
 			</div>

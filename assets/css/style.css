@@ -1,6 +1,35 @@
 @import "bootstrap.css"; 
 
 
+
+/* Additional css for text */
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+
+.font-weight-light {
+  font-weight: 300 !important;
+}
+
+.font-weight-normal {
+  font-weight: 400 !important;
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+
+/* End of Additional css for text */
+
 .carousel-inner img{
 	width: 100%; 
 }
@@ -33,7 +62,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 	.main-logo{
-		width: 4em;	
+		width: 3em;	
 	}
 } 
 
@@ -173,6 +202,46 @@
 		width:50%;
 	}
 }
+
+
+/* Home page css */
+
+.directors{
+  width: 100%; 
+}
+
+.directors img{
+  width: 100%; 
+  margin: 0 auto;
+}
+
+
+#servicesDiv .col-md-4{
+  width: 100%;
+}
+
+#servicesDiv hr, #missionDiv hr{
+  width: 50%; 
+  background: #DDD; 
+  margin-bottom: 5em;
+}
+
+/* End of Home page css */
+
+
+/* Footer CSS */
+
+.footerLinks a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.footerLinks a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+/* End of Footer CSS */ 
 
 
 

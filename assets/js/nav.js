@@ -69,17 +69,21 @@ $(window).on('load', function(){
 
 
 		var elem = $(this).find('.caption'); 
-		height = parseInt(elem.find('p').css('height')) + 48;
+		// height = parseInt(elem.find('p').css('height')) + 48;
+
+
+		elem.slideToggle('fast');
+
 		// console.log(elem.css('height') + " new = " + height);
 
-		elem.animate({
-			height: '100%'},
-			200);
-	}, function() {		
-		var elem = $(this).find('.caption');
-		elem.animate({
-			height: height},
-			500);
+		// elem.animate({
+		// 	height: '100%'},
+		// 	200);
+		// }, function() {		
+		// 	var elem = $(this).find('.caption');
+		// 	elem.animate({
+		// 		height: height},
+		// 		500);
 	});
 
 	// Show navbar on scroll
