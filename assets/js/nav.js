@@ -5,6 +5,7 @@ $(window).on('load', function(){
 
 	// Set hide animation status to hide
 	var hideEvent = 1;
+	var scroll = 0;  
 
 	// Toggle active classes on the URL clicked
 	$('#rv-header').on('click', '.nav-link', function(event){
@@ -18,26 +19,39 @@ $(window).on('load', function(){
 
 		// DIV to go to
 		var section = "#" + this.id + "Div"; 
+		console.log(scroll);
 
 		try{
-			// Auto scroll to that div
-			$('html, body').animate({
-			    scrollTop: ($(section).offset().top - 100)
-			},500);
+			if (scroll == 0) {
+				// Auto scroll to that div
+				$('html, body').animate({
+				    scrollTop: ($(section).offset().top - 170)
+				},500);	
+			}
+			else{
+				// Auto scroll to that div
+				$('html, body').animate({
+				    scrollTop: ($(section).offset().top - 70)
+				},500);
+			}
+			
 
 
 			// Set active class to the link clicked
 			$(this).closest('li').attr('class', 'nav-item active');	
 		}
 		catch(err){
-			window.location = "home"; 
+			window.location = "home#" + this.id + "Div"; 
 		}
 		
 	}); 
 		
 
 	// For footer links
-	$('.footerLinks').on('click', '.text-muted', function(event){
+	$('.footerLinks').on('click', 'a', function(event){
+			// Reset active classes
+		disable_active_links();
+		
 		// Only prevent button clicks if the button's not home
 		if(this.id != "home" && this.id != "director" && this.id != "gallery"){
 			event.preventDefault();
@@ -53,9 +67,12 @@ $(window).on('load', function(){
 			$('html, body').animate({
 			    scrollTop: ($(section).offset().top - 100)
 			},500);	
+
+			// Set active class to the link clicked
+			$('#' + this.id).closest('li').attr('class', 'nav-item active');	
 		}
 		catch(err){
-			window.location = "home"; 
+			window.location = "home#" + this.id + "Div";
 		}
 		
 	}); 	
@@ -68,29 +85,20 @@ $(window).on('load', function(){
 	$('.thumbnail').hover(function() {
 
 
-		var elem = $(this).find('.caption'); 
-		// height = parseInt(elem.find('p').css('height')) + 48;
-
-
-		elem.slideToggle('fast');
-
-		// console.log(elem.css('height') + " new = " + height);
-
-		// elem.animate({
-		// 	height: '100%'},
-		// 	200);
-		// }, function() {		
-		// 	var elem = $(this).find('.caption');
-		// 	elem.animate({
-		// 		height: height},
-		// 		500);
+		var elem = $(this).find('.caption'); 		
+		elem.slideUp(200);
+	}, function() {		
+		var elem = $(this).find('.caption');
+		elem.closest('thumbnail::before').css('background', 'white');
+		
+		elem.fadeIn(200);
 	});
 
 	// Show navbar on scroll
 	// Navbar visible on scroll
 	$(window).scroll(function (event) {
 		// Get scroll data
-	    var scroll = $(window).scrollTop();	
+	    scroll = $(window).scrollTop();	
 	  	
 
 	  	// Stay non fixed initially
@@ -102,7 +110,7 @@ $(window).on('load', function(){
 		}
 
 		// If scrolled show navbar with fixed navbar
-		else if (scroll > 0) {	    		 
+		else if (scroll > 300) {	    		 
     		$('#navbar').attr({
     			class: 'navbar navbar-fixed navbar-expand-md navbar-light bg-white navbar-shadow'    		
     		});			    		
@@ -130,7 +138,7 @@ $(window).on('load', function(){
 	// Hover action for director's links
 	$('.director-link').hover(function() {
 		var elem = $(this); 
-		elem.attr('class', 'col-sm-3 text-center bg-dark text-muted director-link');
+		elem.attr('class', 'col-sm-3 text-center bg-dark text-white director-link');
 	}, function() {
 		var elem = $(this); 
 		

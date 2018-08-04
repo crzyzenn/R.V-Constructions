@@ -4,15 +4,15 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php echo $title; ?></title>
-	<script type="text/javascript" src="assets/js/jquery.js"></script>
-	<script type="text/javascript" src="assets/js/fontawesome-all.js"></script>
-	<script type="text/javascript" src="assets/js/nav.js"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/jquery.js'); ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/fontawesome-all.js'); ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/nav.js'); ?>"></script>
 	
-	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.js'); ?>"></script>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style.css'); ?>">
 
 	<!-- Gallery -->
-	<link href='assets/css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
+	<link href='<?php echo base_url('assets/css/simplelightbox.min.css'); ?>' rel='stylesheet' type='text/css'>
 	<!-- <link href='assets/css/demo.css' rel='stylesheet' type='text/css'> -->
 
 
@@ -22,6 +22,7 @@
 
 
 <body>
+
 	<script type="text/javascript">
 		$('body').css({
 			display: 'none'			
@@ -180,13 +181,13 @@
 															<tr>
 																<td>Email</td>
 																<td>
-																	<p>example@test.com</p>
+																	<p>info@rvcc.com.np</p>
 																</td>
 															</tr>
 															<tr>
 																<td>Website</td>
 																<td>
-																	<p>example.com</p>
+																	<p>www.rvcc.com.np</p>
 																</td>
 															</tr>
 															<tr>
@@ -229,25 +230,25 @@
 					<div class = 'col-md-12 text-center'>						
 						<ul class="list-inline footerLinks">
 							<li class="list-inline-item">
-								<a href="home" id = "home" class = "text-muted">Home</a> 
+								<a href="home" id = "home">Home</a> 
 							</li>
 							<li class="list-inline-item">
-								<a class="text-muted" id = "overview" href="">About Us</a> 
+								<a id = "overview" href="">About Us</a> 
 							</li>
 							<li class="list-inline-item">
-								<a class="text-muted" id = "contact" href="">Contact</a> 
+								<a id = "contact" href="">Contact</a> 
 							</li>
 							<li class="list-inline-item">
-								<a class="text-muted" id = "services" href="">Services</a> 
+								<a id = "services" href="">Services</a> 
 							</li>
 							<li class="list-inline-item">
-								<a class="text-muted" id = "mission" href="">Mission</a> 
+								<a id = "mission" href="">Mission</a> 
 							</li>
 							<li class="list-inline-item">
-								<a class="text-muted" id = "director" href="director">Director's Corner</a> 
+								<a id = "director" href="director">Director's Corner</a> 
 							</li>
 							<li class="list-inline-item">
-								<a class="text-muted" id = "gallery" href="gallery">Gallery</a>
+								<a id = "gallery" href="gallery">Gallery</a>
 							</li>
 					<!-- 		<li class="list-inline-item">Contact | </li>
 							<li class="list-inline-item">Services | </li>

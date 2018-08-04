@@ -1,10 +1,8 @@
 <div class="jumbotron jumbotron-fluid">
 <div class="container">	
 	<div class="gallery bg-light spacing">
-		<h1 class="display-4 text-center" >GALLERY</h1>
-		<hr>
-		
-			
+		<h1 class="display-4 text-center" >Gallery</h1>
+		<p>&nbsp;</p>
 				<a href="assets/images/gallery/Aerial View- Cooling Towers.jpg" class="big"><img src="assets/images/gallery/Aerial View- Cooling Towers.jpg" alt="" title="Aerial View- Cooling Towers" /></a>
 			
 			
