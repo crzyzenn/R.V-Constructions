@@ -26,7 +26,7 @@
 			<div class="row bg-light spacing">
 				<div class = "col-sm-6 text-center">
 					<p>
-						<img src="assets/images/rajesh.png" width="50%">
+						<img src="<?php echo base_url('assets/images/rajesh.png'); ?>" width="50%">
 					</p>
 					
 					<p class = "lead font-weight-bold">Rajesh Kr. Das</p>
@@ -51,7 +51,7 @@
 				</div>	
 				<div class = "col-sm-6 text-center">
 					<p>
-						<img src="assets/images/vivek.png" width="50%">
+						<img src="<?php echo base_url('assets/images/vivek.png'); ?>" width="50%">
 					</p>
 				
 					<p class = "lead font-weight-bold">Vivek Ranjan</p>

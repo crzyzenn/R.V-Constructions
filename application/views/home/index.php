@@ -7,7 +7,7 @@
 		</ol>
 		<div class="carousel-inner" role="listbox">			        
 			<div class="carousel-item active">
-				<img src="assets/images/test3.png" alt="First slide">
+				<img src="<?php echo base_url('assets/images/test3.png'); ?>" alt="First slide">
 				<div class = "carousel-caption text-center">
 					<h1>We are RVCC</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -17,7 +17,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/images/test2.png" alt="First slide">
+				<img src="<?php echo base_url('assets/images/test2.png'); ?>" alt="First slide">
 				<div class = "carousel-caption text-center">
 					<h1>We meet your needs</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -27,7 +27,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/images/test7.png" alt="First slide">
+				<img src="<?php echo base_url('assets/images/test7.png'); ?>" alt="First slide">
 				<div class = "carousel-caption text-center">
 					<h1>What we have done</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -62,7 +62,7 @@
 
 			    <br>	     	
 		     	<a href="director" class="text-muted">
-		     		<img src="assets/images/vivek.png" width="100%">     	
+		     		<img src="<?php echo base_url('assets/images/vivek.png'); ?>" width="100%">     	
 		     		<p>Vivek Ranjan</p>					
 					<p class="text-gray-dark">Graduate in Electrical & Electronics Engineering from India</p>
 				</a>	
@@ -75,7 +75,7 @@
 		    <br>	     			 
 
 		     	<a href="director" class="text-muted">
-		     		<img src="assets/images/rajesh.png">
+		     		<img src="<?php echo base_url('assets/images/rajesh.png'); ?>">
 	 				<p>Rajesh Kr. Das</p>		
 					<p class="text-gray-dark">Master in Architect from TASI (Tashkent, Uzbekistan) </p>
 				</a>
@@ -96,7 +96,7 @@
 				<div class="col-md-4 distinct">
 						
 					    <div class="thumbnail text-center">
-					        <img src="assets/images/we1.png" width="100%" 				    alt="" class="img-responsive">
+					        <img src="<?php echo base_url('assets/images/we1.png'); ?>" width="100%" 				    alt="" class="img-responsive">
 					        <div class="caption">
 					            <p>
 					            	Engineering/Design Layout of Buildings (Commercial/Office/Residential/High Rise, Bank, Hospital), Hotels/Resorts
@@ -110,7 +110,7 @@
 				<div class="col-md-4 distinct">
 					
 					    <div class="thumbnail text-center">
-					        <img src="assets/images/we2.png" width="100%" 				    alt="" class="img-responsive">
+					        <img src="<?php echo base_url('assets/images/we2.png'); ?>" width="100%" 				    alt="" class="img-responsive">
 					        <div class="caption">
 					            <p>
 					            	Civil work/Plumbing & Sanitary Work/ Interior & Exterior works
@@ -123,7 +123,7 @@
 				<div class="col-md-4 distinct">
 					
 				    <div class="thumbnail text-center">
-				        <img src="assets/images/we3.png" width="100%" 				    alt="" class="img-responsive">
+				        <img src="<?php echo base_url('assets/images/we3.png'); ?>" width="100%" 				    alt="" class="img-responsive">
 				        <div class="caption">
 				            <p>
 				            	Remodelling/Renovation/Retrofitting of Residential/Commercial/Office Buildings
@@ -135,7 +135,7 @@
 				<div class="col-md-4 distinct">
 					
 				    <div class="thumbnail text-center">
-				        <img src="assets/images/we10.png" width="100%" 				    alt="" class="img-responsive">
+				        <img src="<?php echo base_url('assets/images/we10.png'); ?>" width="100%" 				    alt="" class="img-responsive">
 				        <div class="caption">
 				            <p>
 				            	Electrification work/ Street Light Poles, High Mast
@@ -148,7 +148,7 @@
 				<div class="col-md-4 distinct">
 					
 				    <div class="thumbnail text-center">
-				        <img src="assets/images/we11.png" width="100%" 				    alt="" class="img-responsive">
+				        <img src="<?php echo base_url('assets/images/we11.png'); ?>" width="100%" 				    alt="" class="img-responsive">
 				        <div class="caption">
 				            <p>
 				            	Fencing solutions/ Earthing & Lightning Protection Solutions
@@ -161,7 +161,7 @@
 				<div class="col-md-4 distinct">
 					
 				    <div class="thumbnail text-center">
-				        <img src="assets/images/we12.png" width="100%" 				    alt="" class="img-responsive">
+				        <img src="<?php echo base_url('assets/images/we12.png'); ?>" width="100%" 				    alt="" class="img-responsive">
 				        <div class="caption">
 				            <p>
 				            	Electrical/Civil/Mechanical Works for Industries/Power Plants
@@ -174,7 +174,7 @@
 				<div class="col-md-4 distinct ">
 					
 				    <div class="thumbnail text-center">
-				        <img src="assets/images/we4.png" width="100%" 				    alt="" class="img-responsive">
+				        <img src="<?php echo base_url('assets/images/we4.png'); ?>" width="100%" 				    alt="" class="img-responsive">
 				        <div class="caption">
 				            <p>
 				            	Substation Work – Civil/Electrical/Mechanical
@@ -188,7 +188,7 @@
 				<div class="col-md-4 distinct ">
 					
 				    <div class="thumbnail text-center">
-				        <img src="assets/images/we5.png" width="100%" 				    alt="" class="img-responsive">
+				        <img src="<?php echo base_url('assets/images/we5.png'); ?>" width="100%" 				    alt="" class="img-responsive">
 				        <div class="caption">
 				            <p>
 				            	Solar – Civil/Structure/ Module Erection, AC/DC Work
@@ -202,7 +202,7 @@
 				<div class="col-md-4 distinct ">
 					
 				    <div class="thumbnail text-center">
-				        <img src="assets/images/we6.png" width="100%" 				    alt="" class="img-responsive">
+				        <img src="<?php echo base_url('assets/images/we6.png'); ?>" width="100%" 				    alt="" class="img-responsive">
 				        <div class="caption">
 				            <p>
 				            	Panel ( LV/MV) – Erection, Testing & Commissioning
@@ -216,7 +216,7 @@
 				<div class="col-md-4 distinct ">
 					
 				    <div class="thumbnail text-center">
-				        <img src="assets/images/we7.png" width="100%" 				    alt="" class="img-responsive">
+				        <img src="<?php echo base_url('assets/images/we7.png'); ?>" width="100%" 				    alt="" class="img-responsive">
 				        <div class="caption">
 				            <p>
 				            	Cable Trays/Raceways
@@ -230,7 +230,7 @@
 				<div class="col-md-4 distinct ">
 					
 				    <div class="thumbnail text-center">
-				        <img src="assets/images/we8.png" width="100%" 				    alt="" class="img-responsive">
+				        <img src="<?php echo base_url('assets/images/we8.png'); ?>" width="100%" 				    alt="" class="img-responsive">
 				        <div class="caption">
 				            <p>
 				            	Cabling System
@@ -244,7 +244,7 @@
 				<div class="col-md-4 distinct ">
 					
 				    <div class="thumbnail text-center">
-				        <img src="assets/images/we9.png" width="100%" 				    alt="" class="img-responsive">
+				        <img src="<?php echo base_url('assets/images/we9.png'); ?>" width="100%" 				    alt="" class="img-responsive">
 				        <div class="caption">
 				            <p>
 				            	Transformers – ETC of Power Transformers, Station Transformers, Distribution Transformers			            	
@@ -270,7 +270,7 @@
 			<p>&nbsp;</p>
 			<div class = "row">
 				<div class = "col-sm-4 text-center distinct">
-					<img src="assets/images/mission.png" width="60%">
+					<img src="<?php echo base_url('assets/images/mission.png'); ?>" width="60%">
 				</div>				
 				<div class = "col-sm-8 bg-white text-justified">
 					<ul class="list-group">
